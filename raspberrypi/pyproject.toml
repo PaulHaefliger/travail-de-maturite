@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "raspberrypi"
+version = "0.1.0"
+description = ""
+authors = ["PaulHaefliger <paul_haefliger@yahoo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+structlog = "^23.1.0"
+smbus2 = "^0.4.2"
+pyserial = "^3.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

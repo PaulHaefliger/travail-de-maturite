@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "plotting"
+version = "0.1.0"
+description = ""
+authors = ["PaulHaefliger <paul_haefliger@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.7.2"
+structlog = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
